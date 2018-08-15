@@ -16,7 +16,7 @@ public class UserController {
 		User u = new User();
 		u.setName("张三");
 		u.setPassword("123");
-		u.setAge(18);
+		u.setAge(19);
 		u.setBirthday(new Date());
 		u.setDesc("大帅比");
 		return JSONResult.ok(u);
